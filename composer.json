@@ -1,0 +1,24 @@
+{
+    "name": "lyrae/lyrae_php",
+    "description": "a composer demo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Console\\": "commands",
+            "JavBus\\": "finder/javbus",
+            "Lyr\\": "finder"
+        },
+        "classmap": ["commands", "finder/javbus", "finder"]
+    },
+    "authors": [
+        {
+            "name": "yuanyu",
+            "email": "yuanyu90221@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.3",
+        "phpquery/phpquery": "^0.0.4"
+    }
+}
