@@ -8,5 +8,4 @@ $app = new Application('lyrae-php', '1.0.0');
 $findCommand = new FindConmmand();
 $app -> add($findCommand);
 $app -> run();
-$ps = new Parser;
 ?>
